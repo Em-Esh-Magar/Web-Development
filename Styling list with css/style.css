@@ -1,0 +1,14 @@
+nav ul li{
+    background-color: greenyellow;
+    /*list-style:"😅" inside;*/
+    /*list-style-position: inside;*/
+    /*  Adding image as list
+    list-style-image: url("https://wallpapers.com/images/hd/naruto-profile-pictures-sa1tekghfajrr928.jpg");
+    */
+    padding: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
