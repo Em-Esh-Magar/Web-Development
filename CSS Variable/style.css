@@ -1,0 +1,35 @@
+:root{
+    --color : rgba(138, 124, 239, 0.608);
+    --bkcolor : rgb(61, 187, 61);
+    --defpadd : 10px;
+    --borcolor : black;
+    --defmar : 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    background-color: var(--color);
+}
+
+ul li{
+    padding: var(--defpadd);
+    margin: var(--defmar);
+    background-color: var(--color);
+    list-style: none;
+    border: 2px solid var(--borcolor);
+}
+
+ul :first-child{
+    --color : rgba(228, 65, 97, 0.608);
+    background-color: var(--color);
+}
+
+.detail p{
+    padding: var(--defpadd);
+    background-color: var(--bkcolor);
+}
