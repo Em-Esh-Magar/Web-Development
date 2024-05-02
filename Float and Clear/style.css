@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cards{
+    border: 3px solid red;
+    display: flow-root;
+}
+
+.card{
+    border: 2px solid blue;
+}
+.cards :nth-child(3)
+{
+    clear : left; 
+}
+
+img{
+    float: left;
+}
