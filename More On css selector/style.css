@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+.box:nth-child(2)
+{
+    background-color: red;
+}*/]
+
+/*
+.box:nth-child(odd)
+{
+    background-color: red;
+}
+*/
+
+
+.boxes *{
+    margin: 10px;
+    padding: 10px;
+}
+
+.box::first-line{
+    color: blue;
+}
+
+::selection{
+    color: yellow;
+    background-color: red;
+}
+
+.boxes::before{
+    content: "This is web development course.";
+}
+.boxes::after{
+    content: "This is web development course.";
+}
+
+p::first-letter{
+    color: green;
+}
+
+.box,p{
+    padding: 10px;
+}
