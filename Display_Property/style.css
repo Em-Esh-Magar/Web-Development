@@ -1,0 +1,17 @@
+.box{
+    border: 2px solid red;
+    display: inline-block;
+    /* Due to this display:inline property block element works as inline element. But there is a problem. It doesn't contain top padding, top margin and change in width  and height. To solve this we use display:inline-blolck*/
+    padding: 30px;
+    margin: 30px;
+    width: 80px;
+    height: 40px;
+    /*
+    display: none;
+    This property doesn't diplsay it's content and shape and size of element
+    */
+    /*
+    visibility: hidden;
+    This property doesn't display it's content but xan be visible it's shape and size
+    */
+}
