@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 10px;
+    height: 70vh;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+}
+
+.order-1{
+    order: 1;
+}
+
+.order-2{
+    order: 2;
+}
+
+.order-3{
+    order: 3;
+}
+
+.item{
+    margin: 5px;
+    width: 24px;
+    height: 24px;
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+
+.item1{
+    flex-grow: 2;
+}
+
+.item2{
+    flex-shrink: 2;
+    align-self: center;
+}
