@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* To make nav sticky use position sticky on header */
+header{
+    position: sticky;
+    top:0;
+}
+
+nav{
+    height: 70px;
+    background-color: rgb(237, 148, 178);
+}
+
+main{
+    padding: 9px;
+    background-color: black;
+}
+
+.container{
+    margin: 15px;
+    background-color: green;
+}
+
+.box1{
+    margin: 25px 50px;
+    height: 70vh;
+    width: 40%;
+    background-color: beige;
+    display: inline-block;
+}   
+
+
+.box2{
+    margin: 25px 50px;
+    height: 70vh;
+    width: 40%;
+    background-color: aqua;
+    display: inline-block;
+}   
+
+.content{
+    color: aliceblue;
+    padding: 10px 30px;
+    margin: 10px 35vw;
+    font-size: 1.5em;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.img{
+    position: fixed;
+    top: 496px;
+    left: 1300px;
+
+}
+
+footer{
+    background-color: blueviolet;
+    height: 50px;
+}
