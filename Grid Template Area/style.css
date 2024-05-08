@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 2px solid black;
+    display: grid;
+    grid-template-areas: "nav nav nav"
+                         "main article article"
+                         "footer footer footer";
+}
+
+.item{
+    height: 20px;
+    border: 2px solid red;
+}
+
+.item1{
+    grid-area: nav;
+}
+
+.item2{
+    grid-area: main;
+}
+
+.item3{
+    grid-area: article;
+}
+/*
+.item4{
+    grid-area: ;
+}*/
+
+.item5{
+    grid-area: footer
+    ;
+}
