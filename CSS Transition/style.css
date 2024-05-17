@@ -1,0 +1,26 @@
+.container{
+    background-color: antiquewhite;
+    width: 70vw;
+    height: 50vh;
+}
+
+
+
+.box{
+    background-color:aqua;
+    width: 7vw;
+    height: 5vh;
+    /*
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+    */
+
+    transition: all 3s ease-in 1s;
+}
+
+.hero{
+    transform: translateX(10vw) translateY(10vh);
+    background-color: black;
+}
