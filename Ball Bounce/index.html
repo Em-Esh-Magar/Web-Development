@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            height: 80vh;
+            width: 80vw;
+            background-color: red;
+            position: relative;
+        }
+
+        .box {
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: blue;
+            border-radius: 50px;
+            animation: BounceX 3s linear infinite, BounceY 0.4s ease-out infinite alternate;
+        }
+
+        @keyframes BounceX {
+            from {
+                left: 0;
+            }
+
+            to {
+                left: 90%;
+            }
+        }
+
+        @keyframes BounceY {
+            from {
+                bottom: 0;
+            }
+
+            to {
+                bottom: 80%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+
+</html>
