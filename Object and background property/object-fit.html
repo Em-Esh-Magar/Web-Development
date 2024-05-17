@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object-fill and Background property</title>
+    <style>
+        .container {
+            height: 600px;
+            width: 600px;
+            border: 2px solid black;
+        }
+
+        img {
+            height: 345px;
+            width: 255px;
+            /*object-fit: cover;
+            object-position: left; */
+
+            /* object-fit : contain */
+
+            object-position: 10px 20px;
+            object-fit: scale-down;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://static.vecteezy.com/system/resources/previews/025/181/412/non_2x/picture-a-captivating-scene-of-a-tranquil-lake-at-sunset-ai-generative-photo.jpg"
+            alt="">
+    </div>
+</body>
+
+</html>
