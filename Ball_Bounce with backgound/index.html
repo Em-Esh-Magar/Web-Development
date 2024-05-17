@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ball bounce with background image</title>
+    <style>
+        .container {
+            background: url("https://t3.ftcdn.net/jpg/04/23/02/00/360_F_423020036_8kbYji7FZsSneEwzHD7q9BvnqZVixUxw.jpg");
+            height: 360px;
+            width: 640px;
+            background-repeat: no-repeat;
+            position: relative;
+            margin: 120px 450px;
+        }
+
+        img{
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            border-radius: 35px;
+            animation: BounceX 3s linear infinite , BounceY 0.4s ease-out alternate infinite;
+        }
+
+        @keyframes BounceX {
+            from{
+                left: 0;
+            }
+            to{
+                left: 96%;
+            }
+        }
+
+
+        @keyframes BounceY {
+            from{
+                bottom: 0;
+            }
+            to{
+                bottom: 70%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="https://t4.ftcdn.net/jpg/00/70/96/69/360_F_70966983_r2eRTeKevJjArTrmbB2osy5f4JnaJRB1.jpg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
